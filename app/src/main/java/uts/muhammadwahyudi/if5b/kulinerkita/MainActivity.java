@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
     public boolean onCreateOptionMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_top_option, menu);
         return super.onCreateOptionsMenu(menu);
